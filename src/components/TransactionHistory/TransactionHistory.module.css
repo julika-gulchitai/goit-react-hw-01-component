@@ -32,4 +32,7 @@ tr:nth-child(even) {
 }
 .tableType {
   text-transform: capitalize;
+  padding-left: 80px;
+  text-align: start;
+  width: 140px;
 }
