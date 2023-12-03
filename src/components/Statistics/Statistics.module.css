@@ -7,7 +7,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .title {
@@ -23,7 +23,7 @@
 .item {
   background: rgb(15, 202, 202);
   width: calc(100% / 5);
-  border: 0.5px solid rgb(109, 104, 104);
+  border: 0.5px solid rgb(248, 246, 246);
   padding: 10px;
 }
 .statList {

@@ -1,0 +1,35 @@
+table,
+th,
+td {
+  text-align: center;
+  height: 50px;
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+}
+tr:nth-child(even) {
+  background: rgb(240, 244, 248);
+}
+.transactionHistory {
+  width: 600px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 7px;
+  box-shadow: 0.3em 0.3em 1em rgba(201, 201, 201, 0.6);
+  align-items: center;
+}
+
+.transactionHeder {
+  background: rgb(85, 186, 186);
+  width: 100%;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.tableType {
+  text-transform: capitalize;
+}
