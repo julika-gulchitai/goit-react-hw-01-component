@@ -16,8 +16,14 @@
 .friendItem:last-child {
   margin-bottom: 25px;
 }
-.status {
+.statusGreen {
   background: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.statusRed {
+  background: red;
   width: 20px;
   height: 20px;
   border-radius: 50%;

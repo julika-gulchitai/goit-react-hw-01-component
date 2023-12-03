@@ -1,4 +1,5 @@
 import s from './Profile.module.css';
+
 export const Profile = ({
   username,
   tag,

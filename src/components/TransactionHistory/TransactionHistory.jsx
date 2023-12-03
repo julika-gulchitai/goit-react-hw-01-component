@@ -1,4 +1,5 @@
 import s from './TransactionHistory.module.css';
+
 export const TransactionHistory = ({ items }) => {
   return (
     <table className={s.transactionHistory}>
