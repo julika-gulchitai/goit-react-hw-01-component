@@ -11,23 +11,23 @@ export const Profile = ({
       <div className={s.wrapper}>
         <div className={s.card}>
           <img src={avatar} alt={username} className={s.avatar} />
-          <p className="name">{username}</p>
-          <p className="tag">{tag}</p>
-          <p className="location">{location}</p>
+          <p className={s.name}>{username}</p>
+          <p className={s.tag}>{tag}</p>
+          <p className={s.tag}>{location}</p>
         </div>
 
-        <ul className="stats">
-          <li>
+        <ul className={s.stats}>
+          <li className={s.statsLink}>
             <span className="label">Followers</span>
             <span className="quantity">{followers}</span>
           </li>
-          <li>
+          <li className={s.statsLink}>
             <span className="label">Views</span>
             <span className="quantity">{views}</span>
           </li>
-          <li>
-            <span className="label">Likes</span>
-            <span className="quantity">{likes}</span>
+          <li className={s.statsLink}>
+            <span className={s.statsLabel}>Likes</span>
+            <span className={s.statsQuantity}>{likes}</span>
           </li>
         </ul>
       </div>

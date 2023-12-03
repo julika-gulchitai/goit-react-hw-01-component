@@ -1,31 +1,84 @@
 .wrapper {
-  padding: 30px 40px;
+  padding: 40px 0 0;
   margin: 0 auto;
   border-radius: 10px;
-  border-radius: 10px;
-  width: 70vh;
-
+  width: 360px;
+  height: 420px;
   background-color: white;
-  height: 100vh;
+
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
   font-size: 40;
   color: #010101;
   flex-direction: column;
+  gap: 25px;
 }
 
 .card {
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .avatar {
-  width: 40vh;
-  border: 1px solid black;
-  border-radius: 60%;
+  width: 150px;
+  border: 0.5px solid rgb(109, 104, 104);
+  border-radius: 50%;
+  margin: 0 auto;
   justify-content: center;
   object-fit: contain;
-  align-items: start;
-  overflow-clip-margin: content-box;
-  overflow: clip;
+  margin-bottom: 20px;
+  /* align-items: start; */
+}
+.name {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 0.001em;
+  color: rgb(77, 75, 75);
+  text-align: center;
+  align-items: center;
+}
+
+.tag {
+  font-size: 18px;
+  color: rgb(175, 162, 162);
+  text-align: center;
+  font-weight: 500;
+}
+.stats {
+  background-color: rgb(240, 244, 248);
+  border: 0.5px solid (210, 220, 230);
+  display: flex;
+
+  justify-content: space-between;
+  width: 100%;
+}
+
+.statsLink {
+  border: 1px solid rgb(210, 220, 230);
+  width: calc(100% / 3);
+
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+.statsLabel {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(175, 162, 162);
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.statsQuantity {
+  display: block;
+  font-size: 25px;
+  color: rgb(77, 75, 75);
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.001em;
 }
