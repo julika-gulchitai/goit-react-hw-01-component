@@ -18,12 +18,12 @@ export const Profile = ({
 
         <ul className={s.stats}>
           <li className={s.statsLink}>
-            <span className="label">Followers</span>
-            <span className="quantity">{followers}</span>
+            <span className={s.statsLabel}>Followers</span>
+            <span className={s.statsQuantity}>{followers}</span>
           </li>
           <li className={s.statsLink}>
-            <span className="label">Views</span>
-            <span className="quantity">{views}</span>
+            <span className={s.statsLabel}>Views</span>
+            <span className={s.statsQuantity}>{views}</span>
           </li>
           <li className={s.statsLink}>
             <span className={s.statsLabel}>Likes</span>
