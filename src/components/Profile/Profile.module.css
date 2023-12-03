@@ -1,0 +1,31 @@
+.wrapper {
+  padding: 30px 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-radius: 10px;
+  width: 70vh;
+
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 40;
+  color: #010101;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 30px;
+}
+
+.avatar {
+  width: 40vh;
+  border: 1px solid black;
+  border-radius: 60%;
+  justify-content: center;
+  object-fit: contain;
+  align-items: start;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
