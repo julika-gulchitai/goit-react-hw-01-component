@@ -1,10 +1,10 @@
 import s from './Statistics.module.css';
 
-export const Statistics = ({ stats }) => {
+export const Statistics = ({ title, stats }) => {
   // stats.style.backgroundColor = getRandomHexColor();
   return (
     <section className={s.statistics}>
-      <h2 className={s.title}>Upload stats</h2>
+      {title && <h2 className={s.title}>{title}</h2>}
       <ul className={s.statList}>
         {stats.map(({ id, label, percentage }) => (
           <li className={s.item} key={id}>
