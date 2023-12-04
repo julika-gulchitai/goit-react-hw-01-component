@@ -12,7 +12,7 @@ export const TransactionHistory = ({ items }) => {
       </thead>
 
       <tbody>
-        {items.map(({ key: id, type, amount, currency }) => {
+        {items.map(({ id, type, amount, currency }) => {
           return (
             <>
               <tr key={id}>
