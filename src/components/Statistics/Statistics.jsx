@@ -1,4 +1,5 @@
 import s from './Statistics.module.css';
+
 export const Statistics = ({ stats }) => {
   // stats.style.backgroundColor = getRandomHexColor();
   return (
